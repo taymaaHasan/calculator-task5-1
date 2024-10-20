@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    background-color: rgb(205, 168, 240);
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+
+
+.output{
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div-calcuat{
+    margin: 5px auto;
+}
+.div-calcuat button {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.div-calcuat button:hover{
+    background-color: blueviolet;
+}
+
